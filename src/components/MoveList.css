@@ -1,0 +1,50 @@
+.move-list {
+  border-top: 1px solid var(--border);
+}
+
+.status-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 60px 16px;
+  text-align: center;
+}
+
+.status-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.status-text {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.retry-button {
+  margin-top: 8px;
+  padding: 8px 20px;
+  background: var(--accent);
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.loader {
+  width: 28px;
+  height: 28px;
+  border: 3px solid #f1c2b8;
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

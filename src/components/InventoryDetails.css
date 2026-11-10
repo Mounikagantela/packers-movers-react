@@ -1,0 +1,13 @@
+.inventory-section {
+  margin-bottom: 12px;
+}
+
+.inventory-notice {
+  margin-bottom: 10px;
+}
+
+.accordion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}

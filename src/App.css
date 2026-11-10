@@ -1,0 +1,28 @@
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  background: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  min-width: 0;
+  max-width: 980px;
+  padding: 24px 32px 48px 16px;
+}
+
+.page-title {
+  margin: 0 0 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+
+  .main-content {
+    padding: 16px;
+  }
+}
